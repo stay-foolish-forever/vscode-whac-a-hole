@@ -1,0 +1,36 @@
+# 依赖
+node_modules/
+
+# 编译输出
+out/
+dist/
+
+# TypeScript 增量构建缓存
+*.tsbuildinfo
+
+# VS Code 测试相关
+.vscode-test/
+.vscode-test-web/
+
+# 打包发布的 VSIX
+*.vsix
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器/IDE
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local

@@ -1,0 +1,43 @@
+{
+  "name": "whac-a-hole-vscode",
+  "displayName": "Whac-A-Hole",
+  "description": "A fun VS Code extension that shows a mole in the status bar. Every keystroke whacks the mole with a hammer!",
+  "version": "0.0.1",
+  "publisher": "FancyLLM2026",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whac-a-hole/whac-a-hole-vscode"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "whac-a-hole-vscode.showStats",
+        "title": "Whac-A-Hole: 显示锤地鼠统计"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0",
+    "eslint": "^8.56.0"
+  }
+}
