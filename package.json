@@ -2,7 +2,7 @@
   "name": "whac-a-hole-vscode",
   "displayName": "Whac-A-Hole",
   "description": "A fun VS Code extension that shows a mole in the status bar. Every keystroke whacks the mole with a hammer!",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "FancyLLM2026",
   "license": "MIT",
   "repository": {
